@@ -25,7 +25,7 @@ class Graph:
     def setStatus(self, v, val):
         self.status[v] = val
 
-    # Method to get the heuristic value of a node 'n'.
+    # Method to get the heuristic value of a node 'n'.ss
     def getHeuristicNodeValue(self, n):
         return self.H.get(n, 0)
 
@@ -90,15 +90,15 @@ class Graph:
 
 # Create a sample graph as a dictionary of nodes and their neighbors with associated weights.
 graph_data = {
-    'A': [[('B', 2), ('C', 3)]],
-    'B': [[('D', 1)]],
-    'C': [[('E', 2)]],
-    'D': [[]],
-    'E': [[]],
+    'A': [[('B', 1), ('C', 1)],[('D',1)]],
+    'B': [[('G', 1)],[('H',1)]],
+    'C': [[('J', 1)]],
+    'D': [[('E',1),('F',1)]],
+    'G': [[('I',1)]]
 }
 
 # Initialize the heuristic values, start node, and create a Graph instance.
-heuristic_node_list = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4}
+heuristic_node_list = {'A': 1, 'B': 6, 'C': 2, 'D': 12, 'E': 2, 'F':1, 'G':5, 'H':7, 'I':7,'J':1}
 start_node = 'A'
 graph = Graph(graph_data, heuristic_node_list, start_node)
 

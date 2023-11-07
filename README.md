@@ -5,7 +5,7 @@ AICV Lab
 |S.no|Program|Date Done|
 |--|--|--|
 |1|[Water Jug](./AI/5_WaterJug.py)|29/09/2023|
-|2|[Best First Search](./AI/3_BestFS.py)|28/09/2023|
+|2|[Best First Search](./AI/6_BestFS_AI.py)|28/09/2023|
 |3|[AO Star](./AI/4_AO_star.py)|28/09/2023|
 |4|[8 Queens](./AI/7_8-Queens.py)|05/10/2023|
 |5|[Travelling Salesman](./AI/8_Tsp_Heurisitc_Nearest.py)|05/10/2023|

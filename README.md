@@ -25,5 +25,8 @@ AICV Lab
 |1|[OpenCV Basics](./CV/1_opencv.py)|26/10/2023|
 |2|[Bitwise Operation](./CV/2_bitwiseoperation.ipynb)|02/11/2023|
 |3|[Drawing Shapes and Text](./CV/3_drawshapes.ipynb)|02/11/2023|
-
+|4|[Morph Images](./CV/4_morph.ipynb)|9/11/2023|
+|5|[Thresholding Contour and Edge Techniques](./CV/5_thresholdinged.ipynb)|9/11/2023|
+|6|[Handwritten Classification](./CV/6_handwritten.ipynb)|16/11/2023|
+|7|[HAAR Image Feature Detection](./CV/7_Haar.ipynb)|23/11/2023|
 ----

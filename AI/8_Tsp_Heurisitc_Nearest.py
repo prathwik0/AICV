@@ -5,6 +5,7 @@ def distance(point1, point2):
 def nearest_neighbor(points):
     n = len(points)
     unvisited = set(range(n))
+    print(unvisited)
     tour = [0]
     unvisited.remove(0)
     

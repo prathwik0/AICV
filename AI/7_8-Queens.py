@@ -7,14 +7,12 @@ def attack(i, j):
     for k in range(0,N):
         if board[i][k] == 1 or board[k][j] == 1:
             return True
-        
-            
+
     for k in range(0, N):
         for l in range(0, N):
             if(k+l == i+j) or (k-l == i-j):
                 if board[k][l] == 1:
                     return True
-                
     return False
 
 def N_queens(n):
@@ -26,8 +24,7 @@ def N_queens(n):
                 board[i][j] = 1
                 if N_queens(n-1) == True:
                     return True
-                board[i][j] = 0
-                
+                board[i][j] = 0   
     return False
 
 N_queens(N)

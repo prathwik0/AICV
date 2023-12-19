@@ -1,7 +1,8 @@
 def water_jug_dfs(jug1_capacity, jug2_capacity, target_capacity):
     def dfs(jug1, jug2, path):
+        # Base condition
         if jug1 == target_capacity or jug2 == target_capacity:
-            print("Solution Found : ", path)
+            print("Solution Found : \n", path)
             return
  
         # Fill jug1

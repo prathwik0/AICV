@@ -15,6 +15,7 @@ def best_f(actual_Src, target, n):
         if u==target:
             break
         for v, c in graph[u]:
+            # print("vc", v, c)
             if visited[v] == False:
                 visited[v] = True
                 pq.put((c,v))
@@ -23,9 +24,6 @@ def best_f(actual_Src, target, n):
 def addedge(x,y,cost):
     graph[x].append((y,cost))
     graph[y].append((x,cost))
-        
-        
-        
         
 addedge(0, 1, 3)
 addedge(0, 2, 6)
@@ -40,6 +38,8 @@ addedge(8, 10, 6)
 addedge(9, 11, 1)
 addedge(9, 12, 10)
 addedge(9, 13, 2)
+
+print(graph)
 
 source = 0
 target = 9
